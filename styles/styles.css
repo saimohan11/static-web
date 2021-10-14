@@ -158,3 +158,13 @@ body {
     text-align: center;
     line-height: 80px;
 }
+
+.main_about {
+    width: 75%;
+    height: 400px;
+    background-color: coral;
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 15px;
+}
