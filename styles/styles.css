@@ -38,19 +38,29 @@ body {
     text-align: center;
 }
 
-.nav nav ul {
+.nav ul {
     list-style-type: none;
-    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+
 }
 
-.nav nav ul li a:link, a:visited{
+.nav li {
+    padding: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.nav nav  a:link, a:visited{
     background-color: #dd0707;
     color: white;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    line-height: 20px;
+    width: 75%;
+    line-height: 30px;
 }
 
 .nav nav ul li a:hover, a:active{
@@ -69,6 +79,31 @@ body {
     text-align: center;
 }
 
+.main ul {
+    text-align: left;
+}
+.main li {
+    list-style-type: none;
+}
+
+.main h3 {
+    text-align: center;
+}
+
+.main li a {
+    color: black;
+}
+
+.main form {
+    text-align: left;
+}
+
+.main video {
+    padding: 0;
+    width: 40%;
+    padding: 10px;
+}
+
 .aside {
     margin: 0;
     margin-right: 10px;
@@ -80,17 +115,23 @@ body {
     text-align: center;
 }
 
-.aside ul li {
+.aside ul {
     list-style-type: none;
-    text-decoration: none;
-    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
 }
-.aside ul li a:link, a:visited {
+
+.aside li {
+    padding: 8px;
+}
+.aside a:link, a:visited {
     background-color: #dd0707;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 50%;
     line-height: 20px;
     padding: 15px 35px;
 }
