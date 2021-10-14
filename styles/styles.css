@@ -24,6 +24,11 @@ body {
     clear: both;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 .nav {
     margin: 0;
     margin-left: 15px;
